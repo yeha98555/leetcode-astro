@@ -12,10 +12,21 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Leetcode',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{
+							label: 'Neetcode',
+							autogenerate: { directory: 'leetcode/neetcode' },
+						},
+						{
+							label: 'Pandas',
+							autogenerate: { directory: 'leetcode/pandas' },
+						},
+						{
+							label: 'SQL',
+							autogenerate: { directory: 'leetcode/sql' },
+						},
 					],
 				},
 				{
