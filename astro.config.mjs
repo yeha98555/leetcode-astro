@@ -7,6 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Notes',
+			customCss: ['./src/styles/custom.css'],
 			social: {
 				github: 'https://github.com/yeha98555',
 			},
